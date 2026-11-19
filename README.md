@@ -9,6 +9,7 @@
 ![Licencia](https://img.shields.io/github/license/RamonDiox/legion-del-mal?cacheSeconds=60)
 
 # 🦹‍♂️ La Legión del Mal th346
+### este es el subtitulo
 
 > _"El mundo no se conquista con fuerza bruta, se conquista con un buen plan y control de versiones."_
 > — Lex Luthor, fundador
