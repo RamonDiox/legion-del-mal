@@ -20,4 +20,4 @@ jobs:
                 echo "Contexto de Github"
                 echo "Operación: ${{ github.repository }}"             
                 echo "Operación: ${{ github.sha }}"
-                echo "Metadata: ${{ toJason(github)}}"
+                echo "Metadata: ${{ toJson(github)}}"
