@@ -28,7 +28,7 @@ jobs:
                 echo "Sistema Operativo"
                 uname -a
                 echo "Habilidades técnicas"
-                node -version
+                node --version
                 git --version
                 python3 --version
 
