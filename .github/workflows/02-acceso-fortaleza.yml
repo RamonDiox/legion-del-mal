@@ -23,7 +23,7 @@ jobs:
 
             - name: "Ahora si, vamos a ver los planes"
               run: |
-                echo "Buscar los archivos de la Legión"
+                echo "Buscar los archivos de la Legión "
                 ls -la   
                 echo "AHORA SI FUNCIONA"
                 echo ""
