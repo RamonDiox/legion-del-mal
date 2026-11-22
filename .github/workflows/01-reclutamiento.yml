@@ -11,13 +11,13 @@ jobs:
               run: echo "Soy Lex Luthor, líder de la legión del Mal"
 
             - name: Reporte de identidad
-            - run: 
+              run: | 
                 echo "Reporte de identidad"
                 echo "===================="
                 echo ""
                 echo "Nombre clave ${{ github.actor }}"
                 echo ""
                 echo "Contexto de Github"
-                echo "Operación: ${{ github.sha }}"             
+                echo "Operación: ${{ github.repository }}"             
                 echo "Operación: ${{ github.sha }}"
                 echo "Metadata: ${{ toJason(github)}}"
