@@ -19,7 +19,7 @@ on:
           - Dos caras
       
       mensaje:
-        descrption: "Mensaje para el consejo"  
+        description: "Mensaje para el consejo"  
         required: true  
         default: "La misión fue un éxito" 
 
