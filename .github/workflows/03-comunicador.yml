@@ -16,6 +16,7 @@ on:
           - Joker
           - Mystique
           - Brainiac 
+          - Dos caras
 
 jobs:
   transmitir_mensaje:
