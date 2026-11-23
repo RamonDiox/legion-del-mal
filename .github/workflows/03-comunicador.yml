@@ -38,8 +38,8 @@ jobs:
 
     steps:
 
-      - name: "Instalar el transmisor de la Legión"
-        run: sudo apt-get install -y cowsay
+      #- name: "Instalar el transmisor de la Legión"
+      #  run: sudo apt-get install -y cowsay
 
 
       - name: "Imprimir inputs"
@@ -53,7 +53,7 @@ jobs:
           echo "-----Mensaje-----"
           cowsay -f eyes "${{inputs.mensaje}}"
           echo ""
-          echo "--- ${{inputs.villano}}
+          echo "--- ${{inputs.villano}}"
           echo "..."
 
 
