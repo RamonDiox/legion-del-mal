@@ -38,8 +38,8 @@ jobs:
 
     steps:
 
-      #- name: "Instalar el transmisor de la Legión"
-      #  run: sudo apt-get install -y cowsay
+      - name: "Instalar el transmisor de la Legión"
+        run: sudo apt-get install -y cowsay
 
 
       - name: "Imprimir inputs"
