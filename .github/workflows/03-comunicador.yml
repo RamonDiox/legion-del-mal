@@ -17,6 +17,20 @@ on:
           - Mystique
           - Brainiac 
           - Dos caras
+      
+      mensaje:
+        descrption: "Mensaje para el consejo"  
+        required: true  
+        default: "La misión fue un éxito" 
+
+      prioridad:
+        description: "Nivel de Prioridad"
+        required: true
+        type: choice
+        options:  
+          - Normal
+          - Alta
+          - Crítica
 
 jobs:
   transmitir_mensaje:
