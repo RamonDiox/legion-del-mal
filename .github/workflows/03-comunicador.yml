@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       villano:
-        description:"¿Que villano envía el mensaje?"
+        description: "¿Que villano envía el mensaje?"
         required: true
         type: choice
         options:  
